@@ -1,12 +1,12 @@
-if (document.querySelector('.page-wrapper')) {
-    var smoother = ScrollSmoother.create({
+
+    let smoother = ScrollSmoother.create({
       smooth: 0.6,
       effects: true,
       ignoreMobileResize: true,
       normalizeScroll: true,
       preventDefault: true,
     });
-  }
+
 
 const tl = gsap.timeline({ paused: true });
 
